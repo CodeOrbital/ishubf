@@ -189,30 +189,30 @@
       <br><br>
       <form action="/submit">
         <label for="iden">You are a/an : </label>
-        <select name="iden" id="iden">
-          <option>Student</option>
-          <option>Teacher</option>
-          <option>Parent</option>
-          <option>Organization</option>
+        <select name="iden" id="iden" required>
+          <option value="student">Student</option>
+          <option value="teacher">Teacher</option>
+          <option value="parent">Parent</option>
+          <option value="organization">Organization</option>
         </select>
         <br><br>
         <label for="mtype">Message type : </label>
-        <select name="mtype" id="mtype">
-          <option>Appriciation</option>
-          <option>Comment</option>
-          <option>Other</option>
+        <select name="mtype" id="mtype" required>
+          <option value="appreciation">Appreciation</option>
+          <option value="comment">Comment</option>
+          <option value="other">Other</option>
         </select>
         <br><br>
-        <label for="sender">Your name : </label>
-        <input name="sender" id="sender" type="text">
+        <label for="sender">Full name : </label>
+        <input name="sender" id="sender" type="text" placeholder="Enter your Name" required>
         <br><br>
         <label for="message">Message : </label>
-        <textarea name="message" id="message" rows="4" cols="20">
+        <textarea name="message" id="message" rows="4" cols="20" required>
 Subject: 
 Message: </textarea>
         <br><br>
         <label for="email">Your email : </label>
-        <input name="email" id="email" type="email">
+        <input name="email" id="email" type="email" placeholder="email@example.com" required>
         <br><br>
         <input type="submit">
       </form>
@@ -240,7 +240,7 @@ Message: </textarea>
       <font size="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
       <a href="https://www.facebook.com/" target="_blank"><img src="icons/facebook.png" alt="facebook icon" width="30"></a>
       <font size="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
-      <a href="https://www.linkedin.com/" target="_blank"><img src="icons/linkedln.png" alt="linkedln icon" width="30"></a>
+      <a href="https://www.linkedin.com/" target="_blank"><img src="icons/linkedln.png" alt="linkedin icon" width="30"></a>
       <font size="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
       <a href="https://www.youtube.com/" target="_blank"><img src="icons/youtube.png" alt="youtube icon" width="35"></a>
       </div>
