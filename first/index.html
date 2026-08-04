@@ -76,6 +76,7 @@
           <tr><th>Headquarters:</th><td> Private Technology Facility</td></tr>
           <tr><th>Primary Domains:</th><td>Education, Health, Business &amp; Enterprise Productivity</td></tr>
           <tr><th>Global Reach:</th><td> Active users and clients across regional and international sectors</td></tr>
+        </tbody>
       </table>
       <br>
       <blockquote>
@@ -237,8 +238,8 @@
           <option value="teacher">Teacher</option>
           <option value="parent">Parent</option>
           <option value="organization">Organization</option>
-          <option value="developer">Developer / Partner</option>
-          <option value="other">Other Entity</option>
+          <option value="individual">individual</option>
+          <option value="other">Other</option>
         </select>
         <br><br>
         <label for="mtype">Message type : </label>
@@ -252,29 +253,44 @@
         <br><br>
         <label for="sender">Full name : </label>
         <input name="sender" id="sender" type="text" placeholder="Enter your Name" required>
-        <br><br>
-        <label for="phone">Phone Number : </label>
-        <input name="phone" id="phone" type="tel" placeholder="+251 9... or local phone">
-        <br><br>
+        <br>
+        <ul type="none">
+          <p>Response Method: </p
+            <li>
+              <input type="radio" id="pref_email" name="pref_text" value="email" checked>
+              <label for="pref_email">Email</label>
+              <br>
+              <ul type="none">
+                <li>
+                  <label for="email">Your email : </label>
+                  <input name="email" id="email" type="email" placeholder="email@example.com">
+                </li>
+              </ul>
+            </li>
+            <br>
+            <li>
+              <input type="radio" id="pref_sms" name="pref_text" value="sms">
+              <label for="pref_sms">SMS</label>
+              <br>
+              <ul type="none">
+                <li>
+                  <label for="phone">Phone Number : </label>
+                  <input name="phone" id="phone" type="tel" placeholder="+251...">
+                </li>
+              </ul>
+            </li>
+        </ul>
+        <br>
         <label for="message">Message : </label>
         <textarea name="message" id="message" rows="4" cols="20" required>
 Subject: 
 Message: </textarea>
         <br><br>
-        <label for="email">Your email : </label>
-        <input name="email" id="email" type="email" placeholder="email@example.com" required>
+        <input type="checkbox" id="policy" name="policy" value="yes" required>
+        <label for="policy">I confirm that all provided information is accurate and agree to the <a href="terms.html" target="_blank">Terms of Service</a> and <a href="privacy.html" target="_blank">Privacy Policy</a>.</label>
         <br><br>
-        <label for="pref">Preferred Response Method: </label>
-        <input type="radio" id="pref_email" name="preferred_contact" value="email" checked>
-        <label for="pref_email">Email</label>
-        <input type="radio" id="pref_phone" name="preferred_contact" value="phone">
-        <label for="pref_phone">Phone</label>
-        <br><br>
-        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
-        <label for="newsletter">Subscribe to Sparkling Solutions monthly newsletter</label>
-        <br><br>
-        <input type="submit" value="Submit Message">
-        <input type="reset" value="Clear Form">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
       </form>
       <br><br>
       <p><font size="2">We respect your privacy. Your information will only be used to respond to your request.</font></p>

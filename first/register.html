@@ -7,10 +7,12 @@
 <body align="center" bgcolor="white">
   <header>
     <h1><font color="dodgerblue">Sparkling Solutions</font></h1>
-    <p><font face="Serif" size="3">Account Access</font></p>
+    <h2><font face="Serif">Account Access</font></h2>
+    <p>Welcome to Sparkling Solutions. Register and get the access to our products and services.</p>
     <hr color="dodgerblue">
     <nav>
-      <a href="index.html">Back to Home</a>
+      <p><a href="index.html">Back to Home</a></p>
+      <p><a href="index.html#scont">Contact Us</a></p>
     </nav>
   </header>
   <br><br>
@@ -64,15 +66,19 @@
         <br>
         <input type="password" id="confirm-password" name="confirm_password" required>
         <br><br>
-        <label for="account-type">Account Type:</label>
-        <br>
-        <select id="account-type" name="account_type">
+        <label for="account-type">Account Type :</label>
+        <select id="account-type" name="account_type" required>
           <option value="individual">Individual</option>
           <option value="organization">Organization</option>
           <option value="student">Student</option>
           <option value="teacher">Teacher</option>
+          <option value="teacher">Parent</option>
         </select>
         <br><br>
+        <div>
+          <a href="terms.html" target="_blank">Terms of Service</a> and <a href="privacy.html" target="_blank">Privacy Policy</a>.
+        </div>
+        <br>
         <input type="checkbox" id="terms" name="terms" required>
         <label for="terms">I agree to the Terms and Conditions</label>
         <br><br>
