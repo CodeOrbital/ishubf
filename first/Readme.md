@@ -16,7 +16,7 @@
 ---
 ## About the Project
 ### Language Usage
-1. Because the assignment strictly instructs us to use only HTML, I used only HTML.
+1. Because the assignment strictly instructs us to use only HTML, I used only HTML5.
 2. This means I didn't use any type of CSS code—not even inline CSS—nor JavaScript.
 3. But to make it as aesthetic as possible, I used different HTML formatting and aesthetics-related elements and attributes, such as:
    - Elements:
@@ -39,7 +39,7 @@
      - `border`
 ## Notes
 > There are some things that are deprecated yet used because of the absence of CSS.
-- Using old HTML aesthetic elements and attributes instead of CSS
+- Using obsolete HTML aesthetic elements and attributes instead of CSS
 - Since I couldn't use CSS to configure the font size of texts, I used the `font` element to wrap other elements even though it is an inline element.
 - Since I couldn't use padding and margin properties, I used many break elements (`<br>` tags).
 - In index.html, I wanted to remove the **underline** from *Sign In* and *Sign Up*, but because I couldn't use the `text-decoration` property, I made the anchor elements wrap buttons, though they are inline elements.
