@@ -38,10 +38,11 @@
      - `bordercolor`
      - `border`
 ## Notes
-> There are some things that are deprecated yet used because of the absence of CSS.
-- Using obsolete HTML aesthetic elements and attributes instead of CSS
-- Since I couldn't use CSS to configure the font size of texts, I used the `font` element to wrap other elements even though it is an inline element.
-- Since I couldn't use padding and margin properties, I used many break elements (`<br>` tags).
-- In index.html, I wanted to remove the **underline** from *Sign In* and *Sign Up*, but because I couldn't use the `text-decoration` property, I made the anchor elements wrap buttons, though they are inline elements.
+> There are some things that are deprecated yet used because of the absence of CSS,
+- Using obsolete HTML aesthetic elements and attributes instead of CSS,
+- Since I couldn't use CSS to configure the font size of texts, I used the `font` element to wrap other elements even though it is an inline element,
+- Since I couldn't use padding and margin properties, I used many break elements (`<br>` tags),
+- In index.html, I wanted to remove the **underline** from *Sign In* and *Sign Up*, but because I couldn't use the `text-decoration` property, I made the anchor elements wrap buttons, though they are inline elements,
+- Since I couldn't use CSS and JS for animation, I used a marquee element.
 ## ***Understand!***
 > ***This is done because of the assignment requirements, not by preference or because of failing to follow conventional coding practices.***
